@@ -1,6 +1,4 @@
-
-[A
-[Apipeline {
+pipeline {
     agent {
         node {
             label 'maven'
@@ -18,4 +16,3 @@ environment {
         }
     }
 }
-
