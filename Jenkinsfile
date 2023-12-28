@@ -15,6 +15,7 @@ environment {
             }
         }
     }
+    
     stage('SonarQube analysis') {
     environment{
        scannerHome = tool 'santo-sonar-scanner';
